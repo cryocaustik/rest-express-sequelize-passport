@@ -1,0 +1,10 @@
+**/.vscode
+**/dist
+**/node_modules
+
+.env
+*.sqlite
+*.db
+
+# dev ignore
+**/graphql

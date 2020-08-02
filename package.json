@@ -1,0 +1,29 @@
+{
+  "name": "rest-express-sequelize-passport",
+  "author": "Alex Skobelev <alex.skobelev@pm.me",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src",
+    "dbsetup": "yarn sequelize db:migrate && yarn sequelize db:seed:all"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "lodash.merge": "^4.6.2",
+    "moment": "^2.27.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
